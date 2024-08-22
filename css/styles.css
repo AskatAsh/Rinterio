@@ -1,0 +1,4 @@
+/* Navbar */
+#menu-btn:checked + label + ul{
+    display: flex;
+}
