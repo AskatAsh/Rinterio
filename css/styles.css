@@ -8,3 +8,8 @@
     -webkit-text-stroke: 0.7px;
     -webkit-text-stroke-color: #212121;
 }
+
+/* contact section */
+.contact-section{
+    background-image: linear-gradient(rgba(244, 244, 244, 0.5), rgba(244, 244, 244, 0.5)), url('../assets/images/bg.jpg');
+}
