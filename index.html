@@ -105,9 +105,9 @@
 
   <main>
     <!-- About Us -->
-    <section class="font-manrope mx-auto w-11/12 max-w-7xl flex  flex-col lg:flex-row gap-6 mt-10 sm:mt-16 lg:mt-24">
+    <section class="font-manrope mx-auto w-11/12 max-w-7xl flex flex-col lg:flex-row gap-6 mt-10 sm:mt-16 lg:mt-24">
       <div class="flex-1 relative">
-        <img class="arrow-img absolute left-[-50px] top-[-60px] hidden lg:block" src="./assets/images/Vector.png"
+        <img class="absolute left-[-50px] top-[-60px] hidden lg:block" src="./assets/images/Vector.png"
           alt="vector arrow image">
         <button
           class="bg-white font-sm text-dark_2 px-5 py-2 font-semibold rounded-full flex items-center gap-2 mx-auto lg:mx-0">
@@ -120,8 +120,9 @@
         <p class="font-medium text-base sm:text-lg text-dark_2 my-6 text-center lg:text-left mx-5 lg:mx-0">The barn
           house captivates with its blend of rustic charm and modern sophistication featuring weathered wood, sleek
           metal accents.</p>
+
         <div class="flex flex-col md:flex-row lg:flex-col gap-6">
-          <div class="news-articles-card-flex items-start gap-5 bg-white p-6 rounded-xl">
+          <div class="flex items-start gap-5 bg-white p-6 rounded-xl">
             <img class="w-[40px] lg:w-[60px]" src="./assets/images/commercial.png" alt="commercial icon">
             <div>
               <h3 class="text-xl lg:text-2xl text-dark_2 font-extrabold">Commercial</h3>
@@ -129,7 +130,7 @@
                 rustic charm and modern.</p>
             </div>
           </div>
-          <div class="card flex items-start gap-5 bg-white p-6 rounded-xl">
+          <div class="flex items-start gap-5 bg-white p-6 rounded-xl">
             <img class="w-[40px] lg:w-[60px]" src="./assets/images/residential.png" alt="residential icon">
             <div>
               <h3 class="text-xl lg:text-2xl text-dark_2 font-extrabold">Residential</h3>
@@ -139,7 +140,7 @@
           </div>
         </div>
       </div>
-      <div class="container__right max-h-64 sm:max-h-96 lg:max-h-full overflow-hidden rounded-2xl">
+      <div class="max-h-64 lg:w-[440px] xl:w-auto sm:max-h-96 lg:max-h-full overflow-hidden rounded-2xl">
         <img class="w-full h-full object-cover" src="./assets/images/House.png" alt="image of a house">
       </div>
     </section>
@@ -377,7 +378,8 @@
     </section>
 
     <!-- Let's Connect -->
-    <section class="contact-section bg-center bg-cover bg-no-repeat py-[72px] lg:py-[100px] border-[3px] sm:border-[7px] border-white mt-10 sm:mt-16 lg:mt-24">
+    <section
+      class="contact-section bg-center bg-cover bg-no-repeat py-[72px] lg:py-[100px] border-[3px] sm:border-[7px] border-white mt-10 sm:mt-16 lg:mt-24">
       <div class="max-w-[670px] lg:max-w-[970px] w-11/12 mx-auto">
         <button
           class="bg-lemon_20 text-base font-bold text-dark_2 px-5 py-2 rounded-full flex items-center gap-2 mx-auto">
@@ -387,10 +389,11 @@
         <h2
           class="section-title about-us-title text-dark_2 font-extrabold text-center mb-6 mt-5 text-2xl sm:text-3xl lg:text-5xl leading-tight lg:leading-tight">
           Let’s Discuss Next Project</h2>
-        <p class="font-medium text-base text-dark_2 mb-8 text-center mx-5 sm:mx-0 max-w-[670px] md:mx-auto">The barn house
+        <p class="font-medium text-base text-dark_2 mb-8 text-center mx-5 sm:mx-0 max-w-[670px] md:mx-auto">The barn
+          house
           captivates with its blend of rustic charm and modern sophistication featuring weathered wood, sleek metal
           accents.</p>
-  
+
         <form class="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-6 flex-1">
           <div class="flex flex-col gap-4">
             <input
@@ -423,33 +426,34 @@
               alt=""></button>
         </form>
       </div>
-  
+
     </section>
   </main>
 
   <!-- Footer -->
   <footer class="bg-[#1C1C1C] py-[72px] md:py-[100px]">
     <div class="max-w-7xl w-11/12 mx-auto">
-        <div class="flex items-start text-3xl text-[#E9E9E9] font-extrabold justify-center mb-4">
-            <img src="./assets/icons/arrow-up-right-01.svg" alt="">
-            <span class="ml-2">Rinterio</span>
-        </div>
-        <p class="text-[#737373] text-center max-w-[670px] px-4 md:px-0 mx-auto leading-relaxed">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-        <ul class="text-[#E9E9E9] font-base flex items-center flex-col sm:flex-row text-center space-y-6 sm:space-y-0 my-8 md:my-12  justify-between sm:max-w-[690px] lg:max-w-[776px] px-5 lg:px-0 mx-auto">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <button
-            class="bg-lightgreen py-3 px-5 rounded-full text-[#1C1C1C] font-extrabold text-xl flex items-center justify-center mx-auto w-full sm:w-auto">
-            <span class="mr-2">Book Consult</span>
-            <img src="./assets/icons/arrow-up-right-02.svg" alt="">
-        </button>
+      <div class="flex items-start text-3xl text-[#E9E9E9] font-extrabold justify-center mb-4">
+        <img src="./assets/icons/arrow-up-right-01.svg" alt="">
+        <span class="ml-2">Rinterio</span>
+      </div>
+      <p class="text-[#737373] text-center max-w-[670px] px-4 md:px-0 mx-auto leading-relaxed">The barn house captivates
+        with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <ul
+        class="text-[#E9E9E9] font-base flex items-center flex-col sm:flex-row text-center space-y-6 sm:space-y-0 my-8 md:my-12  justify-between sm:max-w-[690px] lg:max-w-[776px] px-5 lg:px-0 mx-auto">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <button
+        class="bg-lightgreen py-3 px-5 rounded-full text-[#1C1C1C] font-extrabold text-xl flex items-center justify-center mx-auto w-full sm:w-auto">
+        <span class="mr-2">Book Consult</span>
+        <img src="./assets/icons/arrow-up-right-02.svg" alt="">
+      </button>
     </div>
-
-</footer>
+  </footer>
 </body>
 
 </html>
