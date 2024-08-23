@@ -2,3 +2,9 @@
 #menu-btn:checked + label + ul{
     display: flex;
 }
+
+/* section title */
+.section-title{
+    -webkit-text-stroke: 0.7px;
+    -webkit-text-stroke-color: #212121;
+}
